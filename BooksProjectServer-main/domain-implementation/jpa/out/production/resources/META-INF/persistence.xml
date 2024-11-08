@@ -1,0 +1,31 @@
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_1.xsd"
+             version="3.1">
+    <persistence-unit name="books-jpa" transaction-type="RESOURCE_LOCAL">
+        <description>my Book persistence unit</description>
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+
+        <class>com.jonathan.mybooklist.jpa.models.Genre</class>
+        <class>com.jonathan.mybooklist.jpa.models.ReadBook</class>
+        <class>com.jonathan.mybooklist.jpa.models.PersonalInformation</class>
+        <class>com.jonathan.mybooklist.jpa.models.Author</class>
+        <class>com.jonathan.mybooklist.jpa.models.PeandingBook</class>
+        <class>com.jonathan.mybooklist.jpa.models.Publshing</class>
+
+
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost/books-jpa"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+
+            <property name="jakarta.persistence.sql-load-script-source" value="/data.sql"/>
+        </properties>
+    </persistence-unit>
+</persistence>
