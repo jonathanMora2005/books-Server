@@ -22,6 +22,8 @@
             <option value="$PROJECT_DIR$/BooksProjectServer-main" />
             <option value="$PROJECT_DIR$/BooksProjectServer-main/app" />
             <option value="$PROJECT_DIR$/BooksProjectServer-main/buildSrc" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/clients" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/clients/console" />
             <option value="$PROJECT_DIR$/BooksProjectServer-main/domain" />
             <option value="$PROJECT_DIR$/BooksProjectServer-main/domain-implementation" />
             <option value="$PROJECT_DIR$/BooksProjectServer-main/domain-implementation/file" />
