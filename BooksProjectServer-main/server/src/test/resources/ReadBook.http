@@ -1,0 +1,9 @@
+
+
+
+### readBook request to example server
+GET http://localhost:3000/readBook/0 HTTP/1.1
+Accept: application/json
+###
+GET http://localhost:3000/readBook/2 HTTP/1.1
+Accept: application/json

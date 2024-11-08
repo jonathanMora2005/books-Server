@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/BooksProjectServer-main/buildSrc" name="buildSrc">
+                <projects>
+                  <project path="$PROJECT_DIR$/BooksProjectServer-main/buildSrc" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/BooksProjectServer-main" />
+        <option name="gradleJvm" value="corretto-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/BooksProjectServer-main" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/app" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/buildSrc" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/domain" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/domain-implementation" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/domain-implementation/file" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/domain-implementation/jdbc" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/domain-implementation/jpa" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/server" />
+            <option value="$PROJECT_DIR$/BooksProjectServer-main/utilities" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

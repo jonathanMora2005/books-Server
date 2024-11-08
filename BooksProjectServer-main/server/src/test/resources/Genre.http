@@ -1,0 +1,26 @@
+### genre request to example server
+GET http://localhost:3000/genre/0 HTTP/1.1
+Accept: application/json
+###
+GET http://localhost:3000/genre/3 HTTP/1.1
+Accept: application/json
+###
+DELETE http://localhost:3000/genre/5 HTTP/1.1
+Accept: application/json
+###
+
+POST http://localhost:3000/genre/0
+Content-Type: application/json
+
+{
+  "nombre": "probaNombre"
+
+}
+###
+PUT http://localhost:3000/genre/1
+Content-Type: application/json
+
+{
+  "nombre": "probaNombre"
+
+}
